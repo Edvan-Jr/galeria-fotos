@@ -1,0 +1,137 @@
+* {
+  padding: 0;
+  margin: 0;
+
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+
+  min-height: 100vh;
+}
+
+.aside {
+  background-color: #313131;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 20px;
+
+  position: fixed;
+  min-height: 100vh;
+}
+
+.top-aside {
+  display: flex;
+  flex-direction: column;
+
+  gap: 40px;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+
+  gap: 25px;
+
+  color: #FFFFFF;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 152px 42px 0 42px;
+}
+
+h1 {
+  margin-bottom: 52px;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  gap: 30px;
+}
+
+.foto-item {
+  cursor: pointer;
+}
+
+.legenda {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal {
+  background-color: rgba(0, 0, 0, 0.6);
+
+  width: 100vw;
+  height: 100vh;
+
+  position: fixed;
+  top: 0;
+
+  padding: 90px 45px;
+}
+
+.hidden {
+  display: none;
+}
+
+.btn-fechar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.conteudo-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+
+  gap: 100px;
+
+  position: relative;
+}
+
+.btn-fechar-modal {
+  cursor: pointer;
+}
+
+/* .conteudo-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100%;
+
+  gap: 100px;
+
+  position: relative;
+}*/
+
+.img-modal {
+  width: 555px;
+
+  position: absolute;
+}
+
+.like {
+  width: 36px;
+  height: 31px;
+
+  z-index: 1;
+}
